@@ -1,0 +1,8 @@
+{
+  "name": "Hephaestus",
+  "app_id": "5586caca",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

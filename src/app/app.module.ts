@@ -10,6 +10,10 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoadingModule } from 'ngx-loading';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
+    NgxChartsModule,
+    BrowserAnimationsModule,
+    LoadingModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
